@@ -67,9 +67,9 @@ body {
 
 }
 
-header {
+/*header {
   font-size: 24px
-}
+}*/
 
 button {
   position: fixed;
@@ -99,21 +99,42 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.h1relative {
-  position: relative;
+.h1fixed {
+  position: fixed;
+  font-size: 24px;
   top: -18px;
-  left: 90px;
-  font-family: 'open sans';
+  left: 90;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 900;
+  border-radius: 5px 5px; 
+  padding: 15px 30px;
+  border-style: none;
 }
+
 
 .h2fixed {
-/*  position: fixed;*/
-  display: block;
-  margin: auto;
-  /*left: 30%;*/
+  position: fixed;
+  font-size: 24px;
   top: 145px;
-  /*left: 215px;*/
- /* width: 900px;*/
-  font-family: 'open sans';
+ /* left: 90;*/
+  text-align: center;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 500;
+/*  border-radius: 5px 5px; 
+  padding: 15px 30px;
+  border-style: none;*/
 }
 
+section { 
+    display: block;
+}
+
+.section{
+  font-weight: 500; 
+  font-family: 'open sans'; 
+  font-size: 20px
+  width: 200px;
+  float:left;
+  min-height: 500px;
+}

@@ -2,7 +2,7 @@
 Project Name: Blank Template
 Client: Your Client
 Author: Heather Palmer
-Developer @GA in NYC
+Developer @GA in SEA
 */
 
 
@@ -111,7 +111,6 @@ footer {
   border-style: none;
 }
 
-
 .h2fixed {
   position: fixed;
   font-size: 24px;
@@ -126,15 +125,12 @@ footer {
   border-style: none;*/
 }
 
-section { 
-    display: block;
-}
-
-.section{
+.benefits{
   font-weight: 500; 
   font-family: 'open sans'; 
   font-size: 20px
+  top: 500;
   width: 200px;
   float:left;
-  min-height: 500px;
+  height: 500px;
 }

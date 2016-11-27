@@ -71,6 +71,7 @@ body {
 /*my button should have been an <a class="getit" href="index.html">Get It Now </a>*/
 
 button {
+  display: inline-block;
   position: relative; /*taking "fixed" out to see if this helps the element stay put*/
   top: 133px;
   left: 40%;

@@ -144,94 +144,77 @@ ul.circle {
   margin-left: 100px;
 }
 
-/*tried to add a 2nd button but it edited/removed my 1st button*/
-/*.button_container {
-  width: 100%;
-  height: 100px;
-  margin: 0 auto;
-  background-color: #033048;
-}*/
-/*#button_two {
-  position: fixed;
-  bottom: : 980px;
-  left: 45%;
-  font-weight: 900;
-  font-family: 'open sans';
-  font-size: 12px;
-  background-color: #033048;
-  border-radius: 5px 5px; 
-  padding: 15px 30px;
-  border-style: none;*/
-/*}*/
-
-/*.signup_button { 
-  background-color: #033048;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}*/
-
-
-#testimonial{
+#testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat center;
   position: relative; /*adding this to  see if it allows the image to remain put*/
-  background-size: 100% 300px;
+  background-size: 100% 200px;
 }
 
 #testimonialwords {
   font-style: italic;
   margin: auto;
-  padding: 20px 250px 10px 250px;
+  padding: 20px 250px 30px 250px;
   position: relative; /*adding this to  see if it allows the words to remain put*/
 }
 
-/*p.amanda {
-  padding: 15px 30px;
-  border-style: none;*/
+#amanda {
+  padding-bottom: 15px;
+}
 
-.sign_up_now{
+#sign_up_background {
+  width: 100%;
+  margin-top: -65px;
+  height: 150px;
+  /*padding-top: 40px;*/
+  padding-bottom: 40px;
   background-color: #f9e42e;
-  text-align: center;
-  padding: 15px 20px;
-/*  width: 100%;
-  margin: 20px 300px 100px 300px;*/
-  margin: -20px 0px 30px 0px;
-  border-radius: 5px;
 }
 
-/*#social{
-  display: block;
-  background-color: #121212;
-  background-size: 100% 300px;
-trying to add the social section with black background */
+#sign_up_button {
+  font-size: 20px;
+  background-color: #033048;
+  background-position: center;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 5px 5px; 
+  padding: 20px 75px;
+  border-style: none;
+}
 
-
-.box {
- height: 200px;
- width: 100%;
- margin: 0 auto;
- position: absolute;
- top: 916px;
- bottom: 0px;
-
-
-/*can't get this p ID to be recognized*/
- #social_relaxr {
-  font-size: 24px;
-  text-decoration: bolder;
-  color: #f0efef;
+p#footer_relaxr {
   text-align: center;
-/*  background-color: #121212;*/
+  font-size: 40px;
+  color: #f9e42e;
+  font-weight: bolder;
+  margin-top: 8px;
+ /* padding-bottom: -5px;*/
+}
+
+.centerImageTwitter {
+  float: left;
+  padding-left: 46%;
+  padding-bottom: 20px;
+}
+
+.centerImageFacebook {
+  float: right;
+  padding-right: 47%;
+  padding-bottom: 20px;
 }
 
 
-footer {
-  font-family: 'open sans'; 
-  font-weight: 600; 
-  font-size: 9px;
+p#footer_copyright {
+  text-align: center;
+  font-size: 10px;
   color: white;
-  position: fixed;
-  bottom:0;
-  left: 45%;
-  text-align: center;
+  padding-top: 70px;
+}
+
+#footer_background {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 5px;
 }

@@ -95,8 +95,6 @@ header#navbar {
   float: right;
 }
 
-.navbar-right ul{}
-
 /*get down to child elements*/
 .navbar-right ul li{
   display: inline-block; /*puts the list items in a row*/
@@ -104,12 +102,11 @@ header#navbar {
   margin-left: 18px;
 }
 
-/*breaking this out because more styles are to come to the a tag*/
+/*breaking this out because more styles might come to the a tag*/
 .navbar-right ul li a {
   font-size: 18px;
   line-height: 35px; /*adding a rule to help align the inline element*/
 }
-
 
 .section-left {
   /*background-color: #f0efef;*/
@@ -122,7 +119,7 @@ header#navbar {
   /*height: 400px;*/
 }
 
-/*this is for the large 1st letter of the 1st paragraph*/
+/*this is for the large 1st letter of both paragraphs*/
 .firstcharacter { 
   float: left; 
   color: #606161; 
@@ -141,7 +138,7 @@ p#read_more {
   padding-bottom: 10px;
 }
 
-/*horizontal line*/
+/*horizontal line under both paragraphs*/
 hr {
   display: block;
   border-width: 2px;
@@ -179,7 +176,6 @@ p#learn_more {
 
 /*secion-bottom starts here*/
 .section-bottom {
-  /*background-color: #f0efef;*/
   float: left;
   width: 70%;
   margin-top: -682px;
@@ -190,12 +186,6 @@ p#learn_more {
   /*height: 400px;*/
 }
 
-/*this is for the large 1st letter of the 2nd paragraph*/
-.firstcharacter { 
-  float: left; 
-  color: #606161; 
-  font-size: 75px;
-}
 p#paragraph_two {
   color: #606161
   padding-top; 10px;
@@ -209,26 +199,18 @@ p#read_more {
   padding-bottom: 10px;
 }
 
-/*horizontal line*/
-hr {
-  display: block;
-  border-width: 2px;
-  border-color: #033048;
-}
-
-/*possibly a better way to add styling to both sections*/
-
 .aside-right {
   float: left;
   width: 30%;
   height: 1540px;
- /* background-color: #f0efef;  removed (redundant) coded body*/
+ /* background-color: #f0efef; removed (redundant) coded body with background*/
   font-weight: 600;
   padding-top: 40px;
   padding-left: 90px;
 }
 
-
+/*Adding styling to page links. 
+CSS 'a' tag is connected to all 'a href' html code*/
 
 /* unvisited link */
 a:link {
